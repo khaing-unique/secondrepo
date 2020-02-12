@@ -1,0 +1,10 @@
+let Jname="John";
+let Mname="Mark";
+let Jheight= 4;
+let Mheight= 5;
+let Jweight= 200;
+let Mweight= 100;
+let JBMI= (Jheight+Jweight)/2;
+let MBMI= (Mheight+Mweight)/2;
+let result=JBMI>MBMI;
+console.log(`John's BMI greater than Mark's? ${result}`);
